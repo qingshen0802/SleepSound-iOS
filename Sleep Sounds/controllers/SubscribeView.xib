@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MyriadPro-BoldCond.otf">
+            <string>MyriadPro-BoldCond</string>
+        </mutableArray>
+        <mutableArray key="MyriadPro-Light.otf">
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+        </mutableArray>
+        <mutableArray key="MyriadPro-Semibold.otf">
+            <string>MyriadPro-Semibold</string>
+            <string>MyriadPro-Semibold</string>
+            <string>MyriadPro-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubscribeViewController">
+            <connections>
+                <outlet property="unlock1monthButton" destination="qdV-9y-VY8" id="hoU-Ri-mH8"/>
+                <outlet property="unlock1monthPriceLabel" destination="ccj-Ig-pUq" id="OWA-A6-dT8"/>
+                <outlet property="unlock3monthPriceLabel" destination="RXj-xi-XVp" id="ys0-dW-QWp"/>
+                <outlet property="unlock3monthsButton" destination="wfR-wH-cyW" id="ULE-hc-k9n"/>
+                <outlet property="unlockForeverButton" destination="hcK-ln-wha" id="ZBh-gd-kgG"/>
+                <outlet property="unlockFoveverPriceLabel" destination="ErY-mx-RTz" id="cgQ-8A-BPj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subscribeBG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8pt-Pt-PaQ">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oe5-Tv-5j5">
+                    <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="AbQ-0L-kcw"/>
+                    </constraints>
+                    <state key="normal" image="healthtap"/>
+                    <connections>
+                        <action selector="onHealthTap:" destination="-1" eventType="touchUpInside" id="Ews-8o-eav"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ih-nw-a37">
+                    <rect key="frame" x="140" y="70" width="320" height="200"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subscribe Today!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxw-H0-tzc">
+                            <rect key="frame" x="41" y="0.0" width="238" height="65"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-BoldCond" family="Myriad Pro" pointSize="36"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•  76 Sounds" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIg-MH-RJQ">
+                            <rect key="frame" x="15" y="81" width="290" height="30"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" white="0.0" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                            <size key="shadowOffset" width="0.0" height="2"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•  Millions of Combination" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69a-EQ-Kny">
+                            <rect key="frame" x="15" y="111" width="290" height="30"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" white="0.0" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                            <size key="shadowOffset" width="0.0" height="2"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•  No Ads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3EJ-DH-0Ay">
+                            <rect key="frame" x="15" y="141" width="290" height="30"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" white="0.0" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                            <size key="shadowOffset" width="0.0" height="2"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•  Don't Wait. Start Sleeping Better Now." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2Y-KK-DkQ">
+                            <rect key="frame" x="15" y="171" width="290" height="30"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <color key="shadowColor" white="0.0" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                            <size key="shadowOffset" width="0.0" height="2"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="2p0-Nh-i5j"/>
+                        <constraint firstAttribute="height" constant="200" id="bvX-Cb-zfA"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9BY-Uq-Dus">
+                    <rect key="frame" x="140" y="300" width="320" height="200"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcK-ln-wha">
+                            <rect key="frame" x="12" y="5" width="296" height="111"/>
+                            <state key="normal" image="buyfull"/>
+                            <connections>
+                                <action selector="onBuyUnlockForever:" destination="-1" eventType="touchUpInside" id="Qo4-i5-NQa"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wfR-wH-cyW">
+                            <rect key="frame" x="12" y="128" width="140" height="59"/>
+                            <state key="normal" image="buy3months"/>
+                            <connections>
+                                <action selector="onBuyUnlock3Months:" destination="-1" eventType="touchUpInside" id="X0h-M1-TzH"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdV-9y-VY8">
+                            <rect key="frame" x="168" y="128" width="140" height="59"/>
+                            <state key="normal" image="buy1month"/>
+                            <connections>
+                                <action selector="onBuyUnlock1Month:" destination="-1" eventType="touchUpInside" id="Vlj-wU-Z08"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 PAYMENT OF $6.99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ErY-mx-RTz">
+                            <rect key="frame" x="45" y="89" width="230" height="21"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Semibold" family="Myriad Pro" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$4.99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXj-xi-XVp">
+                            <rect key="frame" x="24" y="165" width="115" height="21"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Semibold" family="Myriad Pro" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$2.99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccj-Ig-pUq">
+                            <rect key="frame" x="181" y="165" width="115" height="21"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Semibold" family="Myriad Pro" pointSize="18"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="5XR-xg-rZa"/>
+                        <constraint firstAttribute="height" constant="200" id="CBX-SZ-inP"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5M-Jg-HHP">
+                    <rect key="frame" x="551" y="15" width="34" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="8Tr-X7-KrZ"/>
+                        <constraint firstAttribute="width" constant="34" id="kaE-Ug-uv3"/>
+                    </constraints>
+                    <state key="normal" image="close"/>
+                    <connections>
+                        <action selector="onClose:" destination="-1" eventType="touchUpInside" id="nHT-wJ-mqg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9BY-Uq-Dus" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="100" id="0Ul-Lc-m4x"/>
+                <constraint firstAttribute="trailing" secondItem="8pt-Pt-PaQ" secondAttribute="trailing" id="3f2-46-fWK"/>
+                <constraint firstAttribute="bottom" secondItem="oe5-Tv-5j5" secondAttribute="bottom" id="6Jh-hg-8fq"/>
+                <constraint firstItem="s5M-Jg-HHP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="8Xo-cH-hJY"/>
+                <constraint firstItem="8pt-Pt-PaQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9yi-8x-22k"/>
+                <constraint firstItem="oe5-Tv-5j5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Tx3-h5-8m6"/>
+                <constraint firstItem="7ih-nw-a37" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-130" id="Xh7-Gb-geq"/>
+                <constraint firstItem="9BY-Uq-Dus" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="elP-oc-2XK"/>
+                <constraint firstItem="7ih-nw-a37" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="m1r-PS-5PX"/>
+                <constraint firstItem="8pt-Pt-PaQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="q0i-du-1Nc"/>
+                <constraint firstAttribute="trailing" secondItem="s5M-Jg-HHP" secondAttribute="trailing" constant="15" id="t7a-cn-ofW"/>
+                <constraint firstAttribute="trailing" secondItem="oe5-Tv-5j5" secondAttribute="trailing" id="uJr-mb-1J2"/>
+                <constraint firstAttribute="bottom" secondItem="8pt-Pt-PaQ" secondAttribute="bottom" id="upG-Pv-Sg4"/>
+            </constraints>
+            <point key="canvasLocation" x="204" y="305"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="buy1month" width="140" height="59"/>
+        <image name="buy3months" width="140" height="59"/>
+        <image name="buyfull" width="296" height="111"/>
+        <image name="close" width="34" height="34"/>
+        <image name="healthtap" width="277" height="24"/>
+        <image name="subscribeBG.jpg" width="640" height="1136"/>
+    </resources>
+</document>

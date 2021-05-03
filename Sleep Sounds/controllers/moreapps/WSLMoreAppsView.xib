@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="MyriadPro-Light.otf">
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+            <string>MyriadPro-Light</string>
+        </mutableArray>
+        <mutableArray key="MyriadPro-Regular.otf">
+            <string>MyriadPro-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1" customClass="WSLMoreAppsView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-moreapps" id="hQd-aO-4w1">
+                    <rect key="frame" x="0.0" y="25" width="320" height="322"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="topbar-moreapps" id="6qD-IU-04b">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" minimumFontSize="8" id="4">
+                    <rect key="frame" x="8" y="47" width="304" height="300"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <string key="text">"Attitude is a little thing that makes a big
+difference. - Winston Churchill</string>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="29"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="8" id="5">
+                    <rect key="frame" x="320" y="117" width="245" height="56"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <string key="text">Stretch for 5 or 10 minutes each day. This will
+increase flexibility, improve sports perfor-
+mance and decrease the effects of aging. This will
+increase flexibility, improve sports perfor-
+mance and decrease the effects of aging.</string>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="10"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="daily inspiration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fuj-k4-zIX">
+                    <rect key="frame" x="56" y="6" width="209" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="18"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="15">
+                    <rect key="frame" x="281" y="4" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="close">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnCloseClicked:" destination="1" eventType="touchUpInside" id="16"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="bXO-hD-YDA">
+                    <rect key="frame" x="0.0" y="530" width="320" height="38"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="Rq5-2G-YHK" userLabel="Twitter">
+                            <rect key="frame" x="107" y="0.0" width="106" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter-moreapps" id="jz9-fm-Qjt">
+                                    <rect key="frame" x="3" y="13" width="14" height="12"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@zenlabsfitness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="v6m-it-nfM">
+                                    <rect key="frame" x="20" y="0.0" width="86" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="CCB-Zu-4hY" userLabel="Facebook">
+                            <rect key="frame" x="1" y="0.0" width="106" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb-moreapps" id="VRs-fh-75h">
+                                    <rect key="frame" x="10" y="13" width="6" height="11"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/zenlabsfitness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nSE-Lb-4qf">
+                                    <rect key="frame" x="20" y="0.0" width="78" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" id="TaS-f9-cbc" userLabel="Insta">
+                            <rect key="frame" x="214" y="0.0" width="106" height="38"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram-moreapps" id="K3m-pG-phu">
+                                    <rect key="frame" x="6" y="13" width="11" height="11"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@zenlabsfitness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sgb-gX-pXV">
+                                    <rect key="frame" x="20" y="0.0" width="86" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="12"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.45882352939999999" green="0.65098039220000004" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tip: daily inspiration can be turned off under settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uYT-Ej-QhU">
+                    <rect key="frame" x="0.0" y="506" width="320" height="23"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="12"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="4Kk-nf-r2h" userLabel="ContentView">
+                    <rect key="frame" x="0.0" y="345" width="320" height="162"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <outlet property="appTitleLbl" destination="23" id="30"/>
+                <outlet property="btnRegister" destination="7" id="11"/>
+                <outlet property="contentView" destination="4Kk-nf-r2h" id="YqP-P9-qFV"/>
+                <outlet property="dailyTitle" destination="fuj-k4-zIX" id="XzB-z6-316"/>
+                <outlet property="featuredAppLbl" destination="22" id="29"/>
+                <outlet property="featuredBtn" destination="26" id="27"/>
+                <outlet property="featuredLbl" destination="24" id="31"/>
+                <outlet property="joinTitle" destination="sTc-6S-6jz" id="SJ4-PB-58L"/>
+                <outlet property="labelQuotes" destination="4" id="9"/>
+                <outlet property="labelTips" destination="5" id="8"/>
+                <outlet property="myScrollView" destination="13" id="14"/>
+                <outlet property="pageControl" destination="19" id="20"/>
+                <outlet property="registeredView" destination="KXZ-aq-E96" id="mVz-4c-wFk"/>
+                <outlet property="standardView" destination="vsu-Fq-ysy" id="yb6-RQ-kGq"/>
+                <outlet property="tfEmail" destination="6" id="10"/>
+                <outletCollection property="bottomTexts" destination="uYT-Ej-QhU" id="2MP-7G-vp0"/>
+                <outletCollection property="bottomTexts" destination="v6m-it-nfM" id="mLq-ek-Fvf"/>
+                <outletCollection property="bottomTexts" destination="nSE-Lb-4qf" id="Wwy-xv-Pqk"/>
+                <outletCollection property="bottomTexts" destination="sgb-gX-pXV" id="ouV-C5-2BC"/>
+                <outletCollection property="joinTexts" destination="J2n-4b-AW7" id="ECw-lX-ts1"/>
+                <outletCollection property="joinTexts" destination="HFE-J1-dgb" id="oNO-nj-aBs"/>
+                <outletCollection property="joinTexts" destination="k64-D5-IgE" id="7vK-tq-4AS"/>
+            </connections>
+            <point key="canvasLocation" x="269" y="405"/>
+        </view>
+        <view contentMode="scaleToFill" id="KXZ-aq-E96" userLabel="Registered">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="161"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.39999999999999997" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="lrD-G3-6aS">
+                    <rect key="frame" x="20" y="0.0" width="280" height="1"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.63921568627450975" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="eZo-E2-p5K">
+                    <rect key="frame" x="20" y="160" width="280" height="1"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.63921568630000003" green="0.63921568630000003" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="23">
+                    <rect key="frame" x="800" y="42" width="228" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="17"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Your Fitness Journey Starts Here!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="22">
+                    <rect key="frame" x="800" y="1" width="320" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="18"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="26">
+                    <rect key="frame" x="800" y="47" width="71" height="73"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="linkToApp:" destination="1" eventType="touchUpInside" id="28"/>
+                    </connections>
+                </button>
+                <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" numberOfLines="5" minimumFontSize="10" id="24">
+                    <rect key="frame" x="800" y="72" width="235" height="53"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="14"/>
+                    <color key="textColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" id="19">
+                    <rect key="frame" x="20" y="125" width="280" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="pageIndicatorTintColor" red="0.65711805560000003" green="0.65711805560000003" blue="0.65711805560000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.40000000000000002" green="0.59999999999999998" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="13">
+                    <rect key="frame" x="25" y="30" width="270" height="95"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="1" id="21"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="913" y="319.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="vsu-Fq-ysy" userLabel="Standard">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="161"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="T9Z-LX-49s">
+                    <rect key="frame" x="20" y="0.0" width="280" height="1"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.63921568630000003" green="0.63921568630000003" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="q5s-h4-SH3">
+                    <rect key="frame" x="20" y="160" width="280" height="1"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" red="0.63921568630000003" green="0.63921568630000003" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Join the Community!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sTc-6S-6jz">
+                    <rect key="frame" x="20" y="0.0" width="280" height="33"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="18"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Advice and tips from fitness experts on how to exercise safely and lose weight effectively." lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HFE-J1-dgb">
+                    <rect key="frame" x="57" y="29" width="228" height="34"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="13"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="After signing up, receive a free ebook on how to maximize fat loss through runnig!" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k64-D5-IgE">
+                    <rect key="frame" x="57" y="61" width="228" height="34"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="13"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Become a part of a passionate and friendly community, ready to help each other out!" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J2n-4b-AW7">
+                    <rect key="frame" x="57" y="93" width="228" height="34"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="13"/>
+                    <color key="textColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" id="FVZ-eZ-ZiK">
+                    <rect key="frame" x="48" y="132" width="225" height="23"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7">
+                            <rect key="frame" x="168" y="0.0" width="57" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.45882352941176469" green="0.65098039215686276" blue="0.031372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="10"/>
+                            <state key="normal" title="register now">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnRegisterClicked:" destination="1" eventType="touchUpInside" id="12"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="type in your email address" textAlignment="center" minimumFontSize="10" id="6">
+                            <rect key="frame" x="0.0" y="0.0" width="168" height="23"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.93003472222222228" alpha="0.44" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="MyriadPro-Light" family="Myriad Pro" pointSize="10"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
+                            <connections>
+                                <outlet property="delegate" destination="1" id="17"/>
+                            </connections>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-moreapps" id="eex-ah-tM7">
+                    <rect key="frame" x="37" y="100" width="6" height="7"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-moreapps" id="fkD-O9-a06">
+                    <rect key="frame" x="37" y="68" width="6" height="7"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow-moreapps" id="aVQ-FD-Gpk">
+                    <rect key="frame" x="37" y="35" width="6" height="7"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="913" y="526.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow-moreapps" width="5" height="6"/>
+        <image name="bg-moreapps" width="320" height="321"/>
+        <image name="close" width="12" height="12"/>
+        <image name="fb-moreapps" width="5" height="11"/>
+        <image name="instagram-moreapps" width="11" height="11"/>
+        <image name="topbar-moreapps" width="320" height="44"/>
+        <image name="twitter-moreapps" width="14" height="12"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

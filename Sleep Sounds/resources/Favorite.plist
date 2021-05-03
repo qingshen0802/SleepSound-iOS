@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Sunshine Relaxation</string>
+		<key>uniqueId</key>
+		<string>1</string>
+		<key>soundIds</key>
+		<array>
+			<string>165</string>
+			<string>173</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Camping at Night</string>
+		<key>uniqueId</key>
+		<string>2</string>
+		<key>soundIds</key>
+		<array>
+			<string>161</string>
+			<string>176</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Raining on a Yacht</string>
+		<key>uniqueId</key>
+		<string>3</string>
+		<key>soundIds</key>
+		<array>
+			<string>158</string>
+			<string>174</string>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Tropical Rain</string>
+		<key>background</key>
+		<string>tropical.jpg</string>
+		<key>sound</key>
+		<string>tropical.mp3</string>
+		<key>isPurchased</key>
+		<true/>
+		<key>volume</key>
+		<real>0.5</real>
+		<key>uniqueId</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Water Sounds</string>
+		<key>background</key>
+		<string>watersounds.jpg</string>
+		<key>sound</key>
+		<string>watersounds.mp3</string>
+		<key>isPurchased</key>
+		<true/>
+		<key>volume</key>
+		<real>0.5</real>
+		<key>uniqueId</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Waterfall</string>
+		<key>background</key>
+		<string>waterfall.jpg</string>
+		<key>sound</key>
+		<string>waterfall.mp3</string>
+		<key>isPurchased</key>
+		<true/>
+		<key>volume</key>
+		<real>0.5</real>
+		<key>uniqueId</key>
+		<string>3</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ocean Waves</string>
+		<key>background</key>
+		<string>oceanwaves.jpg</string>
+		<key>sound</key>
+		<string>oceanwaves.mp3</string>
+		<key>isPurchased</key>
+		<true/>
+		<key>volume</key>
+		<real>0.5</real>
+		<key>uniqueId</key>
+		<string>4</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Bird Songs</string>
+		<key>background</key>
+		<string>birdsongs.jpg</string>
+		<key>sound</key>
+		<string>birdsongs.mp3</string>
+		<key>isPurchased</key>
+		<true/>
+		<key>volume</key>
+		<real>0.5</real>
+		<key>uniqueId</key>
+		<string>5</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Forest Sounds</string>
+		<key>background</key>
+		<string>forest.jpg</string>
+		<key>sound</key>
+		<string>forest.mp3</string>
+		<key>isPurchased</key>
+		<true/>
+		<key>volume</key>
+		<real>0.5</real>
+		<key>uniqueId</key>
+		<string>6</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Traditional Asian</string>
+		<key>background</key>
+		<string>traditionalasian.jpg</string>
+		<key>sound</key>
+		<string>traditionalasian.mp3</string>
+		<key>isPurchased</key>
+		<true/>
+		<key>volume</key>
+		<real>0.5</real>
+		<key>uniqueId</key>
+		<string>7</string>
+	</dict>
+</array>
+</plist>
